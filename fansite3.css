@@ -1,0 +1,155 @@
+.body{
+    background-color: beige;
+}
+
+
+
+
+.vidéo{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.presentation{
+    text-align: center;
+    justify-content: space-around;
+    padding: 40px;
+    border-style: double;
+    border-color: black;
+}
+
+.barredenav{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: papayawhip;
+}
+
+.header{
+    padding: 10px;
+    background-color: bisque;
+}
+
+.coupdroit{
+    width: 100%;
+}
+
+.Actuality{
+    border-style: double;
+    border-color: black;
+    color: aliceblue;
+}
+.Pal{
+    border-style: double;
+    border-color: black;
+    color: aliceblue;
+}
+.Events{
+    border-style: double;
+    border-color: black;
+    color: aliceblue;
+    
+}
+.Pictures{
+    border-style: double;
+    border-color: black;
+    color: aliceblue;
+}
+.Fan{
+    border-style: double;
+    border-color: black;
+    color: aliceblue;
+}
+.Contact{
+    border-style: double;
+    border-color: black;
+    background-color: antiquewhite;
+}
+#Actualités{
+    text-align: center;
+    text-decoration: underline;
+}
+#Palmarès{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+#Evenements{
+    text-align: center;
+    text-decoration: underline;
+} 
+
+#Photos{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Fansite{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Contacts{
+    text-align: center;
+    text-decoration: underline;
+}
+.espace1{
+    display : flex;
+    margin-bottom:20px;
+}
+.espace2{
+    display : flex;
+    margin-bottom:20px;
+}
+.espace3{
+    display : flex;
+    margin-bottom:20px;
+}
+.espace4{
+    display : flex;
+    margin-bottom:20px;
+}
+.espace5{
+    display : flex;
+    margin-bottom:20px;
+}
+.espace6{
+    display : flex;
+    margin-bottom:20px;
+}
+#selectionner civilité{
+    width: 10%;
+}
+
+.Fiel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.formu{
+    padding: 80px;
+}
+
+@media screen and (max-width: 807px){
+    
+    .barredenav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 367px){
+    .Contact{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
