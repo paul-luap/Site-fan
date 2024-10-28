@@ -1,0 +1,109 @@
+/* Styles globaux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(10, 10, 10, 0.8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .logo a, .navbar .nav-links a {
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #8521BA;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* Bannière */
+.banner {
+    background: linear-gradient(135deg, #111, #333);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.5em;
+    color: #dddddd;
+}
+
+/* Contenu principal */
+.content {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px; /* Compense la position fixe de la navbar */
+}
+
+.feature-card {
+    background-color: #222;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.feature-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.feature-card p {
+    font-size: 1em;
+}
+
+/* Pied de page */
+footer {
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
